@@ -1,0 +1,8 @@
+.fullSearchResults {
+    background-color: rgb(241, 240, 240);
+}
+.fullSearchResults h2 {
+    padding: 40px 0;
+    font-size: 40px;
+    color:rgb(62, 62, 233);
+}

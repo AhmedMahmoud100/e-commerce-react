@@ -1,0 +1,79 @@
+[
+    {
+        "id": 45,
+        "name": "watches",
+        "src": "/images/watches/watch0.jpg",
+        "price": 90,
+        "discount": "50%"
+    },
+    {
+        "id": 46,
+        "name": "watches",
+        "src": "/images/watches/watch1.jpg",
+        "discount": "40%",
+        "price": 80
+    },
+    {
+        "id": 47,
+        "name": "watches",
+        "src": "/images/watches/watch2.jpg",
+        "discount": "40%",
+        "price": 80
+    },
+    {
+        "id": 48,
+        "name": "watches",
+        "src": "/images/watches/watch3.jpg",
+        "discount": "50%",
+        "price": 90
+    },
+    {
+        "id": 49,
+        "name": "watches",
+        "src": "/images/watches/watch4.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 50,
+        "name": "watches",
+        "src": "/images/watches/watch5.jpg",
+        "discount": "40%",
+        "price": 100
+    },
+    {
+        "id": 51,
+        "name": "watches",
+        "src": "/images/watches/watch6.jpg",
+        "discount": "60%",
+        "price": 85
+    },
+    {
+        "id": 52,
+        "name": "watches",
+        "src": "/images/watches/watch7.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 53,
+        "name": "watches",
+        "src": "/images/watches/watch8.jpg",
+        "discount": "30%",
+        "price": 100
+    },
+    {
+        "id": 54,
+        "name": "watches",
+        "src": "/images/watches/watch9.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 55,
+        "name": "watches",
+        "src": "/images/watches/watch10.jpg",
+        "discount": "50%",
+        "price": 100
+    }
+]

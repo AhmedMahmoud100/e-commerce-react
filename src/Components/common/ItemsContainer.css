@@ -1,0 +1,99 @@
+.itemscontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    transition: 0.3s;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.itemscontainer.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr))
+}
+.itemscontainer .item {
+    background-color: white;
+    box-shadow: 0px 2px 17px -4px rgb(0 0 0 / 20%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 20px;
+    flex-shrink: 0;
+    width: calc( 25% - 15px);
+}
+.itemscontainer.grid .item {
+    width: 100%;
+}
+.itemscontainer.grid .item:first-child ,
+.itemscontainer.grid .item:first-child {
+    margin: 0;
+}
+.itemscontainer .item:hover > .heading div span ,
+.itemscontainer .item:hover > .heading div .heartIcon{
+ visibility: visible;
+}
+.itemscontainer .item .heading {
+    display: flex;
+    justify-content: space-between;
+}
+.itemscontainer .item .heading .off {
+    background-color: rgb(232, 76, 76);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0px 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    height: 30px;
+}
+.itemscontainer .item .heading div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.itemscontainer .item .heading div span {
+    background-color: rgb(62, 62, 233);
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    padding: 1px 6px;
+    visibility:hidden;
+    transition: 0.3s;
+  
+}
+.itemscontainer .item .heading div .heartIcon {
+    visibility:hidden;
+    transition: 0.3s;
+   
+}
+.itemscontainer .item img {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    height: 60%;
+}
+.itemscontainer .item .itemFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.itemscontainer .item .itemFooter span {
+    padding-left: 5px;
+}
+.itemscontainer .item small {
+    color: rgb(232, 76, 76);
+    padding-left: 5px;
+}
+.itemscontainer .item .plusIcon {
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    background-color: rgb(62, 62, 233);
+    
+}
+ .itemscontainer .item .plusIcon:hover {
+    background-color: rgb(232, 76, 76);
+   
+}

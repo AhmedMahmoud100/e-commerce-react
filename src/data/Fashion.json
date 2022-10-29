@@ -1,0 +1,72 @@
+[
+    {
+        "id": 0,
+        "name": "bag",
+        "src": "/images/fashion/bag0.jpg",
+        "price": 120,
+        "discount": "30%"
+    },
+    {
+        "id": 1,
+        "name": "jacket",
+        "src": "/images/fashion/jacket1.jpg",
+        "discount": "40%",
+        "price": 150
+    },
+    {
+        "id": 2,
+        "name": "jacket",
+        "src": "/images/fashion/jacket2.jpeg",
+        "discount": "40%",
+        "price": 180
+    },
+    {
+        "id": 3,
+        "name": "jacket",
+        "src": "/images/fashion/jacket3.jpg",
+        "discount": "30%",
+        "price": 200
+    },
+    {
+        "id": 4,
+        "name": "jacket",
+        "src": "/images/fashion/jacket4.jpg",
+        "discount": "30%",
+        "price": 140
+    },
+    {
+        "id": 5,
+        "name": "jacket",
+        "src": "/images/fashion/jacket5.jpg",
+        "discount": "40%",
+        "price": 130
+    },
+    {
+        "id": 6,
+        "name": "jacket",
+        "src": "/images/fashion/jacket6.jpg",
+        "discount": "30%",
+        "price": 110
+    },
+    {
+        "id": 7,
+        "name": "jacket",
+        "src": "/images/fashion/jacket7.jpg",
+        "discount": "50%",
+        "price": 300
+    },
+    {
+        "id": 8,
+        "name": "shoes",
+        "src": "/images/fashion/shoes0.jpg",
+        "discount": "30%",
+        "price": 150
+    },
+    {
+        "id": 9,
+        "name": "shoes",
+        "src": "/images/fashion/shoes1.jpg",
+        "discount": "20%",
+        "price": 140
+    }
+]

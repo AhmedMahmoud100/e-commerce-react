@@ -1,0 +1,106 @@
+.fullShoppingCart{
+    background-color:rgb(241, 240, 240) ;
+    padding-top: 60px;
+}
+.shoppingCart {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    
+}
+.shoppingCart .shoppingItems {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.shoppingCart .cartSummary {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.shoppingCart .item {
+ background-color: white;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ gap: 40px;
+ box-shadow: 0px 0px 3px 2px rgb(0 0 0 / 10%);
+ margin-bottom: 30px;
+}
+.shoppingCart .item .itemInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.shoppingCart .item .itemInfo h1{
+    font-size: 25px;
+    padding-left: 25%;
+    
+}
+.shoppingCart .item  img {
+    width: 15%;
+    margin-left: 5%;
+}
+.shoppingCart .item .itemInfo span {
+    font-size: 20px;
+    padding-left: 25%;
+    
+    color: rgb(0 0 0 / 70%);
+}
+.shoppingCart .item .itemInfo span small:last-child {
+ margin-left: 30px;
+ color: rgb(232, 76, 76);
+}
+.shoppingCart .item .icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-right: 30px;
+}
+.shoppingCart .item .downIcons {
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+
+}
+.shoppingCart .item .xIcon {
+    padding-top: 20px;
+    color: rgb(232, 76, 76);
+    cursor: pointer;
+}
+.shoppingCart .item .minusIcon {
+    padding-left: 40px;
+    color: rgb(232, 76, 76);
+    cursor: pointer;
+}
+.shoppingCart .item .plusIcon {
+    color: rgb(232, 76, 76);
+    cursor: pointer;
+}
+.shoppingCart .cartSummary {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.shoppingCart .cartSummary h2 {
+    color:rgb(232, 76, 76) ;
+    padding: 15px;
+    background-color: white;
+    font-size: 25px;
+}
+.shoppingCart .cartSummary .totalPrice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.shoppingCart .cartSummary .totalPrice span:last-child {
+    color:rgb(232, 76, 76) ;
+}

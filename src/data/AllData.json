@@ -1,0 +1,836 @@
+[
+    {
+        "id": 0,
+        "name": "bag",
+        "src": "/images/fashion/bag0.jpg",
+        "price": 120,
+        "discount": "30%"
+    },
+    {
+        "id": 1,
+        "name": "jacket",
+        "src": "/images/fashion/jacket1.jpg",
+        "discount": "40%",
+        "price": 150
+    },
+    {
+        "id": 2,
+        "name": "jacket",
+        "src": "/images/fashion/jacket2.jpeg",
+        "discount": "40%",
+        "price": 180
+    },
+    {
+        "id": 3,
+        "name": "jacket",
+        "src": "/images/fashion/jacket3.jpg",
+        "discount": "30%",
+        "price": 200
+    },
+    {
+        "id": 4,
+        "name": "jacket",
+        "src": "/images/fashion/jacket4.jpg",
+        "discount": "30%",
+        "price": 140
+    },
+    {
+        "id": 5,
+        "name": "jacket",
+        "src": "/images/fashion/jacket5.jpg",
+        "discount": "40%",
+        "price": 130
+    },
+    {
+        "id": 6,
+        "name": "jacket",
+        "src": "/images/fashion/jacket6.jpg",
+        "discount": "30%",
+        "price": 110
+    },
+    {
+        "id": 7,
+        "name": "jacket",
+        "src": "/images/fashion/jacket7.jpg",
+        "discount": "50%",
+        "price": 300
+    },
+    {
+        "id": 8,
+        "name": "shoes",
+        "src": "/images/fashion/shoes0.jpg",
+        "discount": "30%",
+        "price": 150
+    },
+    {
+        "id": 9,
+        "name": "shoes",
+        "src": "/images/fashion/shoes1.jpg",
+        "discount": "20%",
+        "price": 140
+    },
+    {
+        "id": 10,
+        "name": "glasses",
+        "src": "/images/glasses/glasses0.jpg",
+        "price": 90,
+        "discount": "50%"
+    },
+    {
+        "id": 11,
+        "name": "glasses",
+        "src": "/images/glasses/glasses1.jpg",
+        "discount": "40%",
+        "price": 80
+    },
+    {
+        "id": 12,
+        "name": "glasses",
+        "src": "/images/glasses/glasses2.jpg",
+        "discount": "40%",
+        "price": 80
+    },
+    {
+        "id": 13,
+        "name": "glasses",
+        "src": "/images/glasses/glasses3.jpg",
+        "discount": "50%",
+        "price": 90
+    },
+    {
+        "id": 14,
+        "name": "glasses",
+        "src": "/images/glasses/glasses4.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 15,
+        "name": "glasses",
+        "src": "/images/glasses/glasses5.jpg",
+        "discount": "40%",
+        "price": 100
+    },
+    {
+        "id": 16,
+        "name": "glasses",
+        "src": "/images/glasses/glasses6.jpg",
+        "discount": "60%",
+        "price": 85
+    },
+    {
+        "id": 17,
+        "name": "glasses",
+        "src": "/images/glasses/glasses7.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 18,
+        "name": "glasses",
+        "src": "/images/glasses/glasses8.jpg",
+        "discount": "30%",
+        "price": 100
+    },
+    {
+        "id": 19,
+        "name": "glasses",
+        "src": "/images/glasses/glasses9.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 20,
+        "name": "glasses",
+        "src": "/images/glasses/glasses10.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 21,
+        "name": "glasses",
+        "src": "/images/glasses/glasses11.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 22,
+        "name": "glasses",
+        "src": "/images/glasses/glasses12.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 23,
+        "name": "headphones",
+        "src": "/images/headphones/headphone0.jpg",
+        "price": 90,
+        "discount": "50%"
+    },
+    {
+        "id": 24,
+        "name": "headphones",
+        "src": "/images/headphones/headphone1.jpg",
+        "discount": "40%",
+        "price": 80
+    },
+    {
+        "id": 25,
+        "name": "headphones",
+        "src": "/images/headphones/headphone2.jpg",
+        "discount": "40%",
+        "price": 80
+    },
+    {
+        "id": 26,
+        "name": "headphones",
+        "src": "/images/headphones/headphone3.jpg",
+        "discount": "50%",
+        "price": 90
+    },
+    {
+        "id": 27,
+        "name": "headphones",
+        "src": "/images/headphones/headphone4.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 28,
+        "name": "headphones",
+        "src": "/images/headphones/headphone5.jpg",
+        "discount": "40%",
+        "price": 100
+    },
+    {
+        "id": 29,
+        "name": "headphones",
+        "src": "/images/headphones/headphone6.jpg",
+        "discount": "60%",
+        "price": 85
+    },
+    {
+        "id": 30,
+        "name": "headphones",
+        "src": "/images/headphones/headphone7.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 31,
+        "name": "headphones",
+        "src": "/images/headphones/headphone8.jpg",
+        "discount": "30%",
+        "price": 100
+    },
+    {
+        "id": 32,
+        "name": "headphones",
+        "src": "/images/headphones/headphone9.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 33,
+        "name": "headphones",
+        "src": "/images/headphones/headphone10.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 34,
+        "name": "cars",
+        "src": "/images/cars/cars0.jpg",
+        "price": 80000,
+        "discount": "50%"
+    },
+    {
+        "id": 35,
+        "name": "cars",
+        "src": "/images/cars/cars1.jpg",
+        "discount": "40%",
+        "price": 70000
+    },
+    {
+        "id": 36,
+        "name": "cars",
+        "src": "/images/cars/cars2.jpg",
+        "discount": "40%",
+        "price": 80000
+    },
+    {
+        "id": 37,
+        "name": "cars",
+        "src": "/images/cars/cars3.jpg",
+        "discount": "50%",
+        "price": 90000
+    },
+    {
+        "id": 38,
+        "name": "cars",
+        "src": "/images/cars/cars4.jpg",
+        "discount": "50%",
+        "price": 100000
+    },
+    {
+        "id": 39,
+        "name": "cars",
+        "src": "/images/cars/cars5.jpg",
+        "discount": "40%",
+        "price": 100000
+    },
+    {
+        "id": 40,
+        "name": "cars",
+        "src": "/images/cars/cars6.jpg",
+        "discount": "60%",
+        "price": 85000
+    },
+    {
+        "id": 41,
+        "name": "cars",
+        "src": "/images/cars/cars7.jpg",
+        "discount": "50%",
+        "price": 100000
+    },
+    {
+        "id": 42,
+        "name": "cars",
+        "src": "/images/cars/cars8.jpg",
+        "discount": "30%",
+        "price": 100000
+    },
+    {
+        "id": 43,
+        "name": "cars",
+        "src": "/images/cars/cars9.jpg",
+        "discount": "50%",
+        "price": 100000
+    },
+    {
+        "id": 44,
+        "name": "cars",
+        "src": "/images/cars/cars10.jpg",
+        "discount": "50%",
+        "price": 100000
+    },
+    {
+        "id": 45,
+        "name": "watches",
+        "src": "/images/watches/watch0.jpg",
+        "price": 90,
+        "discount": "50%"
+    },
+    {
+        "id": 46,
+        "name": "watches",
+        "src": "/images/watches/watch1.jpg",
+        "discount": "40%",
+        "price": 80
+    },
+    {
+        "id": 47,
+        "name": "watches",
+        "src": "/images/watches/watch2.jpg",
+        "discount": "40%",
+        "price": 80
+    },
+    {
+        "id": 48,
+        "name": "watches",
+        "src": "/images/watches/watch3.jpg",
+        "discount": "50%",
+        "price": 90
+    },
+    {
+        "id": 49,
+        "name": "watches",
+        "src": "/images/watches/watch4.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 50,
+        "name": "watches",
+        "src": "/images/watches/watch5.jpg",
+        "discount": "40%",
+        "price": 100
+    },
+    {
+        "id": 51,
+        "name": "watches",
+        "src": "/images/watches/watch6.jpg",
+        "discount": "60%",
+        "price": 85
+    },
+    {
+        "id": 52,
+        "name": "watches",
+        "src": "/images/watches/watch7.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 53,
+        "name": "watches",
+        "src": "/images/watches/watch8.jpg",
+        "discount": "30%",
+        "price": 100
+    },
+    {
+        "id": 54,
+        "name": "watches",
+        "src": "/images/watches/watch9.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 55,
+        "name": "watches",
+        "src": "/images/watches/watch10.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 56,
+        "name": "ball",
+        "src": "/images/sports/ball0.jpg",
+        "price": 90,
+        "discount": "50%"
+    },
+    {
+        "id": 57,
+        "name": "ball",
+        "src": "/images/sports/ball1.jpg",
+        "discount": "40%",
+        "price": 80
+    },
+    {
+        "id": 58,
+        "name": "ball",
+        "src": "/images/sports/ball3.jpg",
+        "discount": "50%",
+        "price": 90
+    },
+    {
+        "id": 59,
+        "name": "ball",
+        "src": "/images/sports/ball4.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 60,
+        "name": "ball",
+        "src": "/images/sports/ball5.jpg",
+        "discount": "40%",
+        "price": 100
+    },
+    {
+        "id": 61,
+        "name": "ball",
+        "src": "/images/sports/ball6.jpg",
+        "discount": "60%",
+        "price": 85
+    },
+    {
+        "id": 62,
+        "name": "ball",
+        "src": "/images/sports/ball7.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 63,
+        "name": "ball",
+        "src": "/images/sports/ball8.jpg",
+        "discount": "30%",
+        "price": 100
+    },
+    {
+        "id": 64,
+        "name": "ball",
+        "src": "/images/sports/ball9.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 65,
+        "name": "makeup",
+        "src": "/images/makeup/makeup0.jpg",
+        "price": 90,
+        "discount": "50%"
+    },
+    {
+        "id": 66,
+        "name": "makeup",
+        "src": "/images/makeup/makeup1.jpg",
+        "discount": "40%",
+        "price": 80
+    },
+    {
+        "id": 67,
+        "name": "makeup",
+        "src": "/images/makeup/makeup2.jpg",
+        "discount": "40%",
+        "price": 80
+    },
+    {
+        "id": 68,
+        "name": "makeup",
+        "src": "/images/makeup/makeup3.jpg",
+        "discount": "50%",
+        "price": 90
+    },
+    {
+        "id": 69,
+        "name": "makeup",
+        "src": "/images/makeup/makeup4.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 70,
+        "name": "makeup",
+        "src": "/images/makeup/makeup5.jpg",
+        "discount": "40%",
+        "price": 100
+    },
+    {
+        "id": 71,
+        "name": "makeup",
+        "src": "/images/makeup/makeup6.jpg",
+        "discount": "60%",
+        "price": 85
+    },
+    {
+        "id": 72,
+        "name": "makeup",
+        "src": "/images/makeup/makeup7.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 73,
+        "name": "makeup",
+        "src": "/images/makeup/makeup8.jpg",
+        "discount": "30%",
+        "price": 100
+    },
+    {
+        "id": 74,
+        "name": "makeup",
+        "src": "/images/makeup/makeup9.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 75,
+        "name": "makeup",
+        "src": "/images/makeup/makeup10.jpg",
+        "discount": "50%",
+        "price": 100
+    }, {
+        "id": 76,
+        "name": "iPhone 13 Pro Max",
+        "src": "/images/MobilePhones/iphone0.jpg",
+        "price": 1000,
+        "discount": "50%"
+    },
+    {
+        "id": 77,
+        "name": "iPhone 13 Pro Max",
+        "src": "/images/MobilePhones/iphone1.jpg",
+        "discount": "40%",
+        "price": 1000
+    },
+    {
+        "id": 78,
+        "name": "iPhone 13 Pro Max",
+        "src": "/images/MobilePhones/iphone2.jpg",
+        "discount": "40%",
+        "price": 1000
+    },
+    {
+        "id": 79,
+        "name": "iPhone 13 Pro Max",
+        "src": "/images/MobilePhones/iphone3.jpg",
+        "discount": "50%",
+        "price": 1000
+    },
+    {
+        "id": 80,
+        "name": "iPhone 13 Pro Max",
+        "src": "/images/MobilePhones/iphone4.jpg",
+        "discount": "50%",
+        "price": 1000
+    },
+    {
+        "id": 81,
+        "name": "iPhone 13 Pro Max",
+        "src": "/images/MobilePhones/iphone5.jpg",
+        "discount": "40%",
+        "price": 1000
+    },
+    {
+        "id": 82,
+        "name": "iPhone 13 Pro Max",
+        "src": "/images/MobilePhones/iphone6.jpg",
+        "discount": "60%",
+        "price": 1000
+    },
+    {
+        "id": 83,
+        "name": "iPhone 13 Pro Max",
+        "src": "/images/MobilePhones/iphone7.jpg",
+        "discount": "50%",
+        "price": 1000,
+        "number": 0
+    },
+    {
+        "id": 84,
+        "name": "iPhone 13 Pro Max",
+        "src": "/images/MobilePhones/iphone8.jpg",
+        "discount": "30%",
+        "price": 1000
+    },
+    {
+        "id": 85,
+        "name": "iPhone 13 Pro Max",
+        "src": "/images/MobilePhones/iphone9.jpg",
+        "discount": "30%",
+        "price": 1000
+    },
+    {
+        "id": 86,
+        "name": "Samsung A12",
+        "src": "/images/MobilePhones/samsung0.jpg",
+        "price": 400,
+        "discount": "50%"
+    },
+    {
+        "id": 87,
+        "name": "Samsung A12",
+        "src": "/images/MobilePhones/samsung1.jpg",
+        "discount": "40%",
+        "price": 400
+    },
+    {
+        "id": 88,
+        "name": "Samsung A12",
+        "src": "/images/MobilePhones/samsung2.jpg",
+        "discount": "40%",
+        "price": 400
+    },
+    {
+        "id": 89,
+        "name": "Samsung A12",
+        "src": "/images/MobilePhones/samsung3.jpg",
+        "discount": "50%",
+        "price": 400
+    },
+    {
+        "id": 90,
+        "name": "Samsung A12",
+        "src": "/images/MobilePhones/samsung4.jpg",
+        "discount": "50%",
+        "price": 400
+    },
+    {
+        "id": 91,
+        "name": "Samsung A23",
+        "src": "/images/MobilePhones/samsung5.jpg",
+        "discount": "40%",
+        "price": 400
+    },
+    {
+        "id": 92,
+        "name": "Samsung A23",
+        "src": "/images/MobilePhones/samsung6.jpg",
+        "discount": "60%",
+        "price": 400
+    },
+    {
+        "id": 93,
+        "name": "Samsung Galaxy S20",
+        "src": "/images/MobilePhones/samsung7.jpg",
+        "discount": "50%",
+        "price": 400
+    },
+    {
+        "id": 94,
+        "name": "Samsung Galaxy S20",
+        "src": "/images/MobilePhones/samsung8.jpg",
+        "discount": "30%",
+        "price": 400
+    },
+    {
+        "id": 95,
+        "name": "Oppo Reno 7",
+        "src": "/images/MobilePhones/oppo1.jpg",
+        "price": 500,
+        "discount": "40%"
+    },
+    {
+        "id": 96,
+        "name": "Oppo Reno 7",
+        "src": "/images/MobilePhones/oppo2.jpg",
+        "discount": "40%",
+        "price": 500
+    },
+    {
+        "id": 97,
+        "name": "Oppo Reno 7",
+        "src": "/images/MobilePhones/oppo3.jpg",
+        "discount": "40%",
+        "price": 500
+    },
+    {
+        "id": 98,
+        "name": "Oppo Reno 7",
+        "src": "/images/MobilePhones/oppo4.jpg",
+        "discount": "50%",
+        "price": 500
+    },
+    {
+        "id": 99,
+        "name": "Oppo Reno 7",
+        "src": "/images/MobilePhones/oppo5.jpg",
+        "discount": "50%",
+        "price": 500
+    },
+    {
+        "id": 100,
+        "name": "Oppo A76",
+        "src": "/images/MobilePhones/oppo6.jpg",
+        "discount": "40%",
+        "price": 350
+    },
+    {
+        "id": 101,
+        "name": "Oppo A76",
+        "src": "/images/MobilePhones/oppo7.jpg",
+        "discount": "30%",
+        "price": 350
+    },
+    {
+        "id": 102,
+        "name": "Vivo Y1s",
+        "src": "/images/MobilePhones/vivo0.jpg",
+        "price": 200,
+        "discount": "50%"
+    },
+    {
+        "id": 103,
+        "name": "Vivo Y1s",
+        "src": "/images/MobilePhones/vivo1.jpg",
+        "discount": "40%",
+        "price": 200
+    },
+    {
+        "id": 104,
+        "name": "Vivo Y1s",
+        "src": "/images/MobilePhones/vivo2.jpg",
+        "discount": "40%",
+        "price": 200
+    },
+    {
+        "id": 105,
+        "name": "Vivo Y1s",
+        "src": "/images/MobilePhones/vivo3.jpg",
+        "discount": "50%",
+        "price": 200
+    },
+    {
+        "id": 106,
+        "name": "Vivo Y1s",
+        "src": "/images/MobilePhones/vivo4.jpg",
+        "discount": "50%",
+        "price": 200
+    },
+    {
+        "id": 107,
+        "name": "Vivo Y50",
+        "src": "/images/MobilePhones/vivo5.jpg",
+        "discount": "40%",
+        "price": 250
+    },
+    {
+        "id": 108,
+        "name": "Vivo Y50",
+        "src": "/images/MobilePhones/vivo6.jpg",
+        "discount": "40%",
+        "price": 250
+    },
+    {
+        "id": 109,
+        "name": "Vivo Y50",
+        "src": "/images/MobilePhones/vivo7.jpg",
+        "discount": "50%",
+        "price": 250
+    },
+    {
+        "id": 110,
+        "name": "Xiaomi Redmi 10",
+        "src": "/images/MobilePhones/redmi0.jpg",
+        "price": 250,
+        "discount": "50%"
+    },
+    {
+        "id": 111,
+        "name": "Xiaomi Redmi 10",
+        "src": "/images/MobilePhones/redmi1.jpg",
+        "discount": "40%",
+        "price": 250
+    },
+    {
+        "id": 112,
+        "name": "Xiaomi Redmi 10",
+        "src": "/images/MobilePhones/redmi2.jpg",
+        "discount": "40%",
+        "price": 250,
+        "number": 0
+    },
+    {
+        "id": 113,
+        "name": "Xiaomi Redmi 10",
+        "src": "/images/MobilePhones/redmi3.jpg",
+        "discount": "50%",
+        "price": 250
+    },
+    {
+        "id": 114,
+        "name": "Xiaomi Redmi 10",
+        "src": "/images/MobilePhones/redmi4.jpg",
+        "discount": "50%",
+        "price": 250
+    },
+    {
+        "id": 115,
+        "name": "Xiaomi Redmi 10",
+        "src": "/images/MobilePhones/redmi5.jpg",
+        "discount": "40%",
+        "price": 250
+    },
+    {
+        "id": 116,
+        "name": "Xiaomi Redmi 10",
+        "src": "/images/MobilePhones/redmi6.jpg",
+        "discount": "60%",
+        "price": 250
+    },
+    {
+        "id": 117,
+        "name": "Xiaomi Redmi 10",
+        "src": "/images/MobilePhones/redmi7.jpg",
+        "discount": "50%",
+        "price": 250
+    },
+    {
+        "id": 118,
+        "name": "Xiaomi Redmi 10",
+        "src": "/images/MobilePhones/redmi8.jpg",
+        "discount": "30%",
+        "price": 250
+    }
+]

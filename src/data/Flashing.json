@@ -1,0 +1,71 @@
+[
+    {
+        "id":2,
+        "name":"jacket" ,
+        "src":"/images/fashion/jacket2.jpeg",
+        "discount" :"40%" ,
+        "price":100.00
+    },
+    {
+        "id":0,
+        "name":"bag" ,
+        "src":"/images/fashion/bag0.jpg",
+        "discount" :"45%" ,
+        "price":50.00
+    },
+    {
+        "id":55,
+        "name":"watch" ,
+        "src":"/images/watches/watch10.jpg",
+        "discount" :"50%" ,
+        "price":200.00
+    },
+    {
+        "id":8,
+        "name":"shoes" ,
+        "src":"/images/fashion/shoes0.jpg",
+        "discount" :"50%" ,
+        "price":150.00
+    },
+     {
+        "id":50,
+        "name":"watch" ,
+        "src":"/images/watches/watch5.jpg",
+        "discount" :"50%" ,
+        "price":120.00
+    },
+    {
+        "id":58,
+        "name":"ball" ,
+        "src":"/images/sports/ball3.jpg",
+        "discount" :"50%" ,
+        "price":40.00
+    },
+    {
+        "id":65,
+        "name":"makeup" ,
+        "src":"/images/makeup/makeup0.jpg",
+        "discount" :"40%" ,
+        "price":400.00
+    },
+    {
+        "id":66,
+        "name":"makeup" ,
+        "src":"/images/makeup/makeup1.jpg",
+        "discount" :"50%" ,
+        "price":300.00
+    },{
+        "id":30,
+        "name":"Headphone" ,
+        "src":"/images/headphones/headphone7.jpg",
+        "discount" :"40%" ,
+        "price":130.00
+    },
+    {
+        "id":29,
+        "name":"Headphone" ,
+        "src":"/images/headphones/headphone6.jpg",
+        "discount" :"30%" ,
+        "price":150.00
+    }
+]

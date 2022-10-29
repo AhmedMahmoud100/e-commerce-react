@@ -1,0 +1,36 @@
+
+*{
+    margin:0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+} 
+@media (min-width:768px) {
+    .container {
+        width:750px ;
+    
+    }
+}
+@media (min-width:992px) {
+    .container {
+        width:970px ;
+    }
+}
+@media (min-width:1200px) {
+    .container {
+        width:1170px ;
+    }
+}
+@media (min-width:1600px){
+    .container {
+        width:1570px ;
+    }
+}
+
+
+

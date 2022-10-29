@@ -1,0 +1,73 @@
+.advantages {
+    background-color: rgb(241, 240, 240);
+    padding: 70px 0;
+}
+.advantages .sectionsContainer {
+    display: grid ;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+    
+}
+.advantages .sectionsContainer article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+    height: 250px;
+}
+.advantages .sectionsContainer article .icon {
+   font-size: 25px;
+   background-color: rgb(241, 240, 240);
+   border-radius: 50%; 
+   padding: 20px;
+}
+.advantages .sectionsContainer article p {
+    text-align: center;
+    padding: 0 20px;
+    opacity: 60%;
+    font-size: 20px;
+}
+.advantages .sectionsContainer article h2 {
+    font-size: 22px;
+}
+.mainFooter{
+   background-color:   rgb(19 19 116);
+}
+.mainFooter .footerContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    padding: 70px 0;
+    color: white;
+    gap: 40px;
+}
+.mainFooter .footerContainer section {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    gap: 20px;
+    
+}
+.mainFooter .footerContainer section h2 {
+    font-size: 30px;
+}
+.mainFooter .footerContainer section:first-child h2{
+    color: rgb(225, 74, 74);
+}
+.mainFooter .footerContainer section:first-child p {
+    opacity: 60%;
+    line-height: 1.6;
+    font-size: 18px;
+    padding-right: 25px;
+}
+
+.mainFooter .footerContainer section ul {
+   list-style: none;
+}
+.mainFooter .footerContainer section ul li {
+    padding: 5px 0;
+    color: white;
+    opacity: 60%;
+    font-size: 18px
+}

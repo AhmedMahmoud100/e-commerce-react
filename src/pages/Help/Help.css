@@ -1,0 +1,47 @@
+.help {
+    display: flex;
+    flex-direction: column ;
+    gap: 30px;
+    padding: 40px 10px;
+}
+.help h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+
+}
+.help .part1 div {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(300px,1fr));
+    gap: 30px;
+    color: rgb(62, 62, 233);
+    font-size: 25px;
+    padding: 20px 0 ;
+}
+.help .part2 ul {
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+ 
+}
+.help .part2 ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(120, 117, 117);
+    font-size: 20px;
+}
+.help .part2 ul span {
+    color: rgb(120, 117, 117);
+}
+@media(max-width:1200px){
+    .help .part2 ul li {
+        width: 35%;
+    }
+}
+@media(max-width:997px){
+    .help .part2 ul li {
+        width: 45%;
+    }
+}

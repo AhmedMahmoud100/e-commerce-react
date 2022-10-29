@@ -1,0 +1,79 @@
+[
+    {
+        "id": 23,
+        "name": "headphones",
+        "src": "/images/headphones/headphone0.jpg",
+        "price": 90,
+        "discount": "50%"
+    },
+    {
+        "id": 24,
+        "name": "headphones",
+        "src": "/images/headphones/headphone1.jpg",
+        "discount": "40%",
+        "price": 80
+    },
+    {
+        "id": 25,
+        "name": "headphones",
+        "src": "/images/headphones/headphone2.jpg",
+        "discount": "40%",
+        "price": 80
+    },
+    {
+        "id": 26,
+        "name": "headphones",
+        "src": "/images/headphones/headphone3.jpg",
+        "discount": "50%",
+        "price": 90
+    },
+    {
+        "id": 27,
+        "name": "headphones",
+        "src": "/images/headphones/headphone4.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 28,
+        "name": "headphones",
+        "src": "/images/headphones/headphone5.jpg",
+        "discount": "40%",
+        "price": 100
+    },
+    {
+        "id": 29,
+        "name": "headphones",
+        "src": "/images/headphones/headphone6.jpg",
+        "discount": "60%",
+        "price": 85
+    },
+    {
+        "id": 30,
+        "name": "headphones",
+        "src": "/images/headphones/headphone7.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 31,
+        "name": "headphones",
+        "src": "/images/headphones/headphone8.jpg",
+        "discount": "30%",
+        "price": 100
+    },
+    {
+        "id": 32,
+        "name": "headphones",
+        "src": "/images/headphones/headphone9.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 33,
+        "name": "headphones",
+        "src": "/images/headphones/headphone10.jpg",
+        "discount": "50%",
+        "price": 100
+    }
+]

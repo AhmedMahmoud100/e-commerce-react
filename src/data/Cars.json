@@ -1,0 +1,79 @@
+[
+    {
+        "id": 34,
+        "name": "cars",
+        "src": "/images/cars/cars0.jpg",
+        "price": 80000,
+        "discount": "50%"
+    },
+    {
+        "id": 35,
+        "name": "cars",
+        "src": "/images/cars/cars1.jpg",
+        "discount": "40%",
+        "price": 70000
+    },
+    {
+        "id": 36,
+        "name": "cars",
+        "src": "/images/cars/cars2.jpg",
+        "discount": "40%",
+        "price": 80000
+    },
+    {
+        "id": 37,
+        "name": "cars",
+        "src": "/images/cars/cars3.jpg",
+        "discount": "50%",
+        "price": 90000
+    },
+    {
+        "id": 38,
+        "name": "cars",
+        "src": "/images/cars/cars4.jpg",
+        "discount": "50%",
+        "price": 100000
+    },
+    {
+        "id": 39,
+        "name": "cars",
+        "src": "/images/cars/cars5.jpg",
+        "discount": "40%",
+        "price": 100000
+    },
+    {
+        "id": 40,
+        "name": "cars",
+        "src": "/images/cars/cars6.jpg",
+        "discount": "60%",
+        "price": 85000
+    },
+    {
+        "id": 41,
+        "name": "cars",
+        "src": "/images/cars/cars7.jpg",
+        "discount": "50%",
+        "price": 100000
+    },
+    {
+        "id": 42,
+        "name": "cars",
+        "src": "/images/cars/cars8.jpg",
+        "discount": "30%",
+        "price": 100000
+    },
+    {
+        "id": 43,
+        "name": "cars",
+        "src": "/images/cars/cars9.jpg",
+        "discount": "50%",
+        "price": 100000
+    },
+    {
+        "id": 44,
+        "name": "cars",
+        "src": "/images/cars/cars10.jpg",
+        "discount": "50%",
+        "price": 100000
+    }
+]

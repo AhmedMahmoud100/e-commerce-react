@@ -1,0 +1,68 @@
+[
+    {
+        "id" : 0,
+        "name" : "glasses",
+        "src" :"/images/Arrival/glasse.jpg",
+        "price" : 150
+    },
+    {
+        "id" : 1,
+        "name" : "watch",
+        "src" :"/images/Arrival/watch.jpg",
+        "price" : 120
+    },
+    {
+        "id" : 2,
+        "name" : "make up",
+        "src" :"/images/Arrival/makeup.jpg",
+        "price" : 200
+    },
+    {
+        "id" : 3,
+        "name" : "lipstick",
+        "src" :"/images/Arrival/lipstick.jpg",
+        "price" : 30
+    },
+    {
+        "id" : 4,
+        "name" : "Bonsai Tree",
+        "src" :"/images/Arrival/Bonsaitree0.jpg",
+        "price" : 400
+    },
+    {
+        "id" : 5,
+        "name" : "glasses",
+        "src" :"/images/Arrival/glasse0.jpg",
+        "price" : 150
+    },
+    {
+        "id" : 6,
+        "name" : "football",
+        "src" :"/images/Arrival/football.jpg",
+        "price" : 40
+    },
+    {
+        "id" : 7,
+        "name" : "basketball",
+        "src" :"/images/Arrival/basketball.jpg",
+        "price" : 40
+    },
+    {
+        "id" : 8,
+        "name" : "kettlebell",
+        "src" :"/images/Arrival/kettlebell.jpg",
+        "price" : 50
+    },
+    {
+        "id" : 9,
+        "name" : "Bonsaitree",
+        "src" :"/images/Arrival/Bonsaitree.jpg",
+        "price" : 420
+    },
+    {
+        "id" : 10,
+        "name" : "JumpingRope",
+        "src" :"/images/Arrival/JumpingRope.jpg",
+        "price" : 20
+    }
+]

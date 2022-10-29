@@ -1,0 +1,59 @@
+.fullsection {
+    background-color: rgb(241, 240, 240);
+}
+
+.todaydeals .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 2px 2px 2px rgb(0 0 0 / 20%);
+
+}
+.todaydeals .header img {
+    width: 200px;
+}
+.todaydeals h1 {
+    font-size: 40px;
+    text-align: center;
+    color: black ;
+    letter-spacing: 1px;
+    color: #cf0909d6;
+    padding-left: 20px;
+}
+.todaydeals .slider {
+    margin: 50px 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 20px 20px;
+    background-color : rgb(228, 228, 228) ;
+    box-shadow: 0px 2px 2px 2px rgb(0 0 0 / 20%);
+    justify-content: space-between;
+
+}
+.todaydeals .slider .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.todaydeals .slider .box img {
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+}
+@media(max-width:997px){
+    .todaydeals .slider {
+        padding: 20px 10px;
+    }
+    .todaydeals .slider .box img {
+        width: 80px;
+    }
+    .todaydeals h1 {
+           font-size: 35px;
+    }
+}

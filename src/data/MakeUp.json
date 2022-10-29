@@ -1,0 +1,79 @@
+[
+    {
+        "id": 65,
+        "name": "makeup",
+        "src": "/images/makeup/makeup0.jpg",
+        "price": 90,
+        "discount": "50%"
+    },
+    {
+        "id": 66,
+        "name": "makeup",
+        "src": "/images/makeup/makeup1.jpg",
+        "discount": "40%",
+        "price": 80
+    },
+    {
+        "id": 67,
+        "name": "makeup",
+        "src": "/images/makeup/makeup2.jpg",
+        "discount": "40%",
+        "price": 80
+    },
+    {
+        "id": 68,
+        "name": "makeup",
+        "src": "/images/makeup/makeup3.jpg",
+        "discount": "50%",
+        "price": 90
+    },
+    {
+        "id": 69,
+        "name": "makeup",
+        "src": "/images/makeup/makeup4.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 70,
+        "name": "makeup",
+        "src": "/images/makeup/makeup5.jpg",
+        "discount": "40%",
+        "price": 100
+    },
+    {
+        "id": 71,
+        "name": "makeup",
+        "src": "/images/makeup/makeup6.jpg",
+        "discount": "60%",
+        "price": 85
+    },
+    {
+        "id": 72,
+        "name": "makeup",
+        "src": "/images/makeup/makeup7.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 73,
+        "name": "makeup",
+        "src": "/images/makeup/makeup8.jpg",
+        "discount": "30%",
+        "price": 100
+    },
+    {
+        "id": 74,
+        "name": "makeup",
+        "src": "/images/makeup/makeup9.jpg",
+        "discount": "50%",
+        "price": 100
+    },
+    {
+        "id": 75,
+        "name": "makeup",
+        "src": "/images/makeup/makeup10.jpg",
+        "discount": "50%",
+        "price": 100
+    }
+]
