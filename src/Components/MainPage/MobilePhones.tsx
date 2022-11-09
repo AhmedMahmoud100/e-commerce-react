@@ -48,7 +48,7 @@ export function MobilePhones() {
                 <span>{viewAll ? "view less" : "view all"}</span>
               </div>
             </header>
-            <section className='itemscontainer grid'>
+            <section className='itemscontainer phones grid'>
               <ItemsContainer data={jsonData[brand as keyof jsondatDataType]} />
 
             </section>

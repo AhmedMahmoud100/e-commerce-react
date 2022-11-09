@@ -4,7 +4,7 @@
     gap: 20px;
     transition: 0.3s;
     padding-bottom: 10px;
-    font-size: 25px;
+    font-size: 18px;
 }
 .itemscontainer.grid {
     display: grid;
@@ -71,6 +71,8 @@
     width: 60%;
     margin: 0 auto;
     padding-bottom: 20px;
+}
+.itemscontainer.phones .item img{
     height: 60%;
 }
 .itemscontainer .item .itemFooter {

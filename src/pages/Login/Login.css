@@ -9,13 +9,13 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-    font-size: 30px;
+    font-size: 25px;
     align-items: flex-start;
     justify-content: space-around;
     width: 50%;
 }
 .login .part1 p {
-    font-size: 25px;
+    font-size: 22px;
     margin-right: 40px;
 }
 .login input {
@@ -31,7 +31,7 @@
 }
 
 .login button {
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px 40px;
     background-color: black;
     color: white;
@@ -42,13 +42,13 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 30px;
+    font-size: 25px;
     align-items: flex-start;
     justify-content: space-around;
     width: 50%;
 }
 .login .part2 span {
-    font-size: 25px;
+    font-size: 22px;
 }
 .login .part2 ul {
     list-style: none;
@@ -62,7 +62,7 @@
 }
 .login .part2 ul span {
     padding: 10px;
-    font-size: 23px;
+    font-size: 20px;
 }
 .login .checkIcon {
   font-size: 20px;
@@ -70,7 +70,7 @@
   color: green;
 }
 .login .rightIcon {
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     padding-left: 20px;
 }

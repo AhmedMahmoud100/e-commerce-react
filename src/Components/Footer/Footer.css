@@ -27,10 +27,10 @@
     text-align: center;
     padding: 0 20px;
     opacity: 60%;
-    font-size: 20px;
+    font-size: 16px;
 }
 .advantages .sectionsContainer article h2 {
-    font-size: 22px;
+    font-size: 20px;
 }
 .mainFooter{
    background-color:   rgb(19 19 116);
@@ -50,7 +50,7 @@
     
 }
 .mainFooter .footerContainer section h2 {
-    font-size: 30px;
+    font-size: 22px;
 }
 .mainFooter .footerContainer section:first-child h2{
     color: rgb(225, 74, 74);
@@ -58,7 +58,7 @@
 .mainFooter .footerContainer section:first-child p {
     opacity: 60%;
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 16px;
     padding-right: 25px;
 }
 
@@ -69,5 +69,5 @@
     padding: 5px 0;
     color: white;
     opacity: 60%;
-    font-size: 18px
+    font-size: 16px
 }

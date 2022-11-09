@@ -14,9 +14,9 @@
         "price":50.00
     },
     {
-        "id":55,
+        "id":45,
         "name":"watch" ,
-        "src":"/images/watches/watch10.jpg",
+        "src":"/images/watches/watch0.jpg",
         "discount" :"50%" ,
         "price":200.00
     },

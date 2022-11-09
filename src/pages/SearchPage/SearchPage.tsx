@@ -20,15 +20,15 @@ export default function SearchPage() {
   let location = useLocation()
 
   const jsonData: CategoriesType = {
-    "watches": watchesData,
-    "sports": sportsdata,
-    "makeUp": makeupdata,
-    "headPhones": headphonesdata,
-    "glasses": glassesdata,
-    "cars": carsdata,
-    "fashion": fashiondata,
-    "mobilePhones": mobiledata,
-    "all": AllData
+    "Watches": watchesData,
+    "Sports": sportsdata,
+    "MakeUp": makeupdata,
+    "HeadPhones": headphonesdata,
+    "Glasses": glassesdata,
+    "Cars": carsdata,
+    "Fashion": fashiondata,
+    "MobilePhones": mobiledata,
+    "All": AllData
   }
 
   useEffect(() => {

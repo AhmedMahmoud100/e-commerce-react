@@ -5,13 +5,13 @@
     justify-content: space-around;
     margin: 50px auto;
     gap: 40px;
-    font-size: 30px;
+    font-size: 25px;
 }
 .TrackOrder h1 {
     padding-right: 20px;
 }
 .TrackOrder p {
-    font-size: 25px;
+    font-size: 22px;
     width: 40%;
 }
 .TrackOrder input {
@@ -26,8 +26,8 @@
     padding-left: 20px;
 }
 .TrackOrder button {
-    font-size: 30px;
-    padding: 10px 40px;
+    font-size: 20px;
+    padding: 10px 30px;
     background-color: black;
     color: white;
     border-radius: 8px;

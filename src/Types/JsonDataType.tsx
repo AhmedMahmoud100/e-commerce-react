@@ -8,13 +8,13 @@ export type ItemType = {
 }
 
 export type CategoriesType = {
-  "watches": ItemType[]
-   "sports": ItemType[]
-   "makeUp": ItemType[]
-   "headPhones": ItemType[]
-   "glasses": ItemType[]
-   "cars": ItemType[]
-   "fashion": ItemType[]
-   "mobilePhones": ItemType[]
-   "all"? : ItemType[]
+  "Watches": ItemType[]
+   "Sports": ItemType[]
+   "MakeUp": ItemType[]
+   "HeadPhones": ItemType[]
+   "Glasses": ItemType[]
+   "Cars": ItemType[]
+   "Fashion": ItemType[]
+   "MobilePhones": ItemType[]
+   "All"? : ItemType[]
 }

@@ -19,17 +19,20 @@ export function Search() {
   function SearchValue() {
     setvalue("");
   }
+
   function SearchCategory(e: React.MouseEvent) {
     let target = e.target as HTMLInputElement;
     let name = target.getAttribute("data-name")!;
     setcategory(name);
     setmenu(false);
   }
+
   function HandleKeyPress(e: any) {
     if (e.charCode === 13) {
       navigate("./Search", { state: { category: category, search: value } });
     }
   }
+
   return (
     <header className="mainHeader">
       <h1>Bonik</h1>
@@ -37,31 +40,31 @@ export function Search() {
         <div className="custom-select">
           <h3 onClick={() => setmenu(!menu)}>{category}</h3>
           <ul className={menu ? "menu active" : " menu"}>
-            <li onClick={SearchCategory} data-name="all">
+            <li onClick={SearchCategory} data-name="All">
               All
             </li>
-            <li onClick={SearchCategory} data-name="fashion">
+            <li onClick={SearchCategory} data-name="Fashion">
               Fashion
             </li>
-            <li onClick={SearchCategory} data-name="glasses">
+            <li onClick={SearchCategory} data-name="Glasses">
               Glasses
             </li>
-            <li onClick={SearchCategory} data-name="headPhones">
+            <li onClick={SearchCategory} data-name="HeadPhones">
               Headphones
             </li>
-            <li onClick={SearchCategory} data-name="cars">
+            <li onClick={SearchCategory} data-name="Cars">
               Cars
             </li>
-            <li onClick={SearchCategory} data-name="watches">
+            <li onClick={SearchCategory} data-name="Watches">
               Watches
             </li>
-            <li onClick={SearchCategory} data-name="sports">
+            <li onClick={SearchCategory} data-name="Sports">
               Sports
             </li>
-            <li onClick={SearchCategory} data-name="makeUp">
+            <li onClick={SearchCategory} data-name="MakeUp">
               Make up
             </li>
-            <li onClick={SearchCategory} data-name="mobilePhones">
+            <li onClick={SearchCategory} data-name="MobilePhones">
               Mobile phones
             </li>
           </ul>

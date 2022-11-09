@@ -9,8 +9,6 @@ import carsdata from '../../data/Cars.json'
 import fashiondata from '../../data/Fashion.json'
 import AllData from '../../data/AllData.json'
 
-
-
 export default function TodayDeals() {
   const [data, setdata] = useState(AllData)
 
