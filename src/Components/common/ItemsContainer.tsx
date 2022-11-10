@@ -9,7 +9,7 @@ import { ItemType } from '../../Types/JsonDataType'
 
 
 
-export default function ItemsContainer({ data }: { data: ItemType[] }) {
+export default function ItemsContainer({ data ,slide }: { data: ItemType[] ,slide? :number }) {
   const [numbersArray, setnumbersArray] = useContext(itemsNumberContext)
   const [array, setarray] = useContext(itemsContext)
 
@@ -30,7 +30,9 @@ export default function ItemsContainer({ data }: { data: ItemType[] }) {
   return (
     <>
       {data.map((e: ItemType) => {
-        return <article className="item" key={e.id}>
+        return <article className="item" key={e.id}
+        style={{ transform: `translateX(-${slide! * 120}%)` }}
+        >
           <div className='heading'>
             <span className='off'>{e.discount} Off</span>
             <div>

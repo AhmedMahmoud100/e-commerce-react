@@ -1,7 +1,9 @@
 import { useState } from 'react'
+import './TopCategories.css'
 import data from '../../data/Top.json'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquare } from '@fortawesome/free-solid-svg-icons'
+
 
 export default function TopCategories() {
   const [viewAll, setviewAll] = useState(false)

@@ -1,4 +1,4 @@
-
+import './FlashDeals.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBolt, faArrowRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import flashingData from '../../data/Flashing.json'
@@ -17,8 +17,8 @@ export default function FlashDeals() {
             <h2>Flash Deals</h2>
           </header>
           <section className='itemscontainer'
-            style={{ transform: `translateX(-${slide * 25.3}%)` }}>
-            <ItemsContainer data={flashingData} />
+           >
+            <ItemsContainer data={flashingData} slide={slide}/>
           </section>
         </div>
 

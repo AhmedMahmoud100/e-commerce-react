@@ -20,6 +20,7 @@
     padding-bottom: 20px;
     flex-shrink: 0;
     width: calc( 25% - 15px);
+    transition: 0.3s;
 }
 .itemscontainer.grid .item {
     width: 100%;

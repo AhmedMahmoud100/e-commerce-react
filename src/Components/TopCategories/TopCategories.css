@@ -1,0 +1,112 @@
+.topCategories {
+    background-color:rgb(241, 240, 240) ;
+    padding: 50px 0 30px;
+}
+.topCategories header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.topCategories header .part1 {
+    display: flex;
+    align-items: center;
+}
+.topCategories header .part1 h2 {
+    padding-left: 20px;
+    position: relative;
+    font-size: 25px;
+}
+.view {
+    cursor: pointer;
+    font-size: 18px;
+}
+.view span {
+    position: relative;
+    cursor: pointer;
+    color :rgb(0 0 0 / 60%);
+    padding-right: 20px;
+}
+.view span::after {
+    content: "";
+    position: absolute;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid rgb(0 0 0 / 60%);
+    top: 2px;
+    right: 0px;
+}
+
+.topCategories .body {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow: hidden;
+    padding: 10px 0;
+}
+.topCategories .body.all {
+    gap: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
+.topCategories .body article {
+    display: flex;
+    flex-direction: row;
+    border: 20px solid white;
+    position: relative;
+    box-shadow: 2px 1px 2px 1px rgb(0 0 0 / 10%);
+    width: calc(100% / 3 - 14px);
+    flex-shrink: 0;
+    height: 160px;
+}
+
+.topCategories .body.all article {
+    width: auto;
+}
+.topCategories .body article img {
+    width: 33% ;
+    height: 100%;
+}
+
+.topCategories .body article small , .topCategories .body article span {
+    content: "";
+    position: absolute;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    top: 2px;
+}
+.topCategories .body article small {
+left: 10px;
+background-color: rgb(12, 12, 192);
+color: white;
+}
+.topCategories .body article span {
+    right: 3px;
+    color: black;
+    background-color: #eee;
+    
+}
+@media (max-width:998px) {
+    .topCategories .body article small ,
+    .topCategories .body article span {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
+@media (max-width:769px){
+    .topCategories .body article {
+        width: calc(100% / 2 - 7px)
+    }
+}
+@media (max-width:600px){
+    .topCategories .body article {
+        width: calc(100% - 10px)
+    }
+    .topCategories header .part1 h2 {
+        font-size: 22px;
+        padding-left: 15px;
+    }
+}

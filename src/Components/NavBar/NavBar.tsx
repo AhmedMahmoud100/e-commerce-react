@@ -1,6 +1,7 @@
 import { useState } from "react";
-import AsideBar from "../MainPage/AsideBar";
+import AsideBar from "../AsideBar/AsideBar";
 import { Link } from "react-router-dom";
+import "./NavBar.css";
 export default function NavBar() {
   const [asideVisabilty, setasideVisabilty] = useState(false);
 
