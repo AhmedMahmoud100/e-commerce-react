@@ -1,6 +1,7 @@
 import { FormatCurrency } from '../../utilities/FormatCurrency'
 import { useState } from 'react'
 import { ItemType } from '../../Types/JsonDataType'
+import './Arrival.css'
 
 type ArrivalPropsType = {
   data : ItemType[]

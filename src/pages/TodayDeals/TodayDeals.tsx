@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './TodayDeals.css'
 import ItemsContainer from '../../Components/common/ItemsContainer'
 import watchesData from '../../data/Watches.json'
@@ -8,9 +8,21 @@ import glassesdata from '../../data/Glasses.json'
 import carsdata from '../../data/Cars.json'
 import fashiondata from '../../data/Fashion.json'
 import AllData from '../../data/AllData.json'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 
 export default function TodayDeals() {
   const [data, setdata] = useState(AllData)
+  const [slide, setslide] = useState(0)
+  const [number, setnumber] = useState(2)
+
+  useEffect(() => {
+    if (document.body["clientWidth"] < 551 && document.body["clientWidth"] > 400) {
+      setnumber(4)
+    } else if (document.body["clientWidth"] < 401) {
+      setnumber(5)
+    }
+  }, [])
 
   return (
 
@@ -20,35 +32,64 @@ export default function TodayDeals() {
           <img src='/images/deals/deal.jpg'></img>
           <h1>Epic holiday deals for everyone</h1>
         </div>
-        <div className='slider'>
-          <div className='box' onClick={() => setdata(AllData)}>
-            <img src='/images/deals/all.jpg'></img>
-            <h3>All Deals</h3>
+        <div className="sliderContainer">
+          <div className='slider' >
+            <div className='box' onClick={() => setdata(AllData)} style={{ transform: `translateX(-${slide! * 100}%)` }}>
+              <figure>
+                <img src='/images/deals/all.jpg'></img>
+                <h3>All Deals</h3>
+              </figure>
+
+            </div>
+            <div className='box' onClick={() => setdata(headphonesdata)} style={{ transform: `translateX(-${slide! * 100}%)` }}>
+              <figure>
+                <img src='/images/headphones/headphone0.jpg'></img>
+                <h3>HeadPhones</h3>
+              </figure>
+
+            </div>
+            <div className='box' onClick={() => setdata(glassesdata)} style={{ transform: `translateX(-${slide! * 100}%)` }}>
+              <figure>
+                <img src='/images/glasses/glasses0.jpg'></img>
+                <h3>glasses</h3>
+              </figure>
+
+
+            </div>
+            <div className='box' onClick={() => setdata(fashiondata)} style={{ transform: `translateX(-${slide! * 100}%)` }}>
+              <figure>
+                <img src='/images/fashion/shoes1.jpg'></img>
+                <h3>fashion</h3>
+              </figure>
+
+            </div>
+            <div className='box' onClick={() => setdata(carsdata)} style={{ transform: `translateX(-${slide! * 100}%)` }}>
+              <figure>
+                <img src='/images/cars/cars0.jpg'></img>
+                <h3>cars</h3>
+              </figure>
+
+            </div>
+            <div className='box' onClick={() => setdata(sportsdata)} style={{ transform: `translateX(-${slide! * 100}%)` }}>
+              <figure>
+                <img src='/images/sports/ball3.jpg'></img>
+                <h3>sports</h3>
+              </figure>
+
+            </div>
+            <div className='box' onClick={() => setdata(watchesData)} style={{ transform: `translateX(-${slide! * 100}%)` }}>
+              <figure>
+                <img src='/images/watches/watch4.jpg'></img>
+                <h3>watches</h3>
+              </figure>
+
+            </div>
+
           </div>
-          <div className='box' onClick={() => setdata(headphonesdata)}>
-            <img src='/images/headphones/headphone0.jpg'></img>
-            <h3>HeadPhones</h3>
-          </div>
-          <div className='box' onClick={() => setdata(glassesdata)}>
-            <img src='/images/glasses/glasses0.jpg'></img>
-            <h3>glasses</h3>
-          </div>
-          <div className='box' onClick={() => setdata(fashiondata)}>
-            <img src='/images/fashion/shoes1.jpg'></img>
-            <h3>fashion</h3>
-          </div>
-          <div className='box' onClick={() => setdata(carsdata)}>
-            <img src='/images/cars/cars0.jpg'></img>
-            <h3>cars</h3>
-          </div>
-          <div className='box' onClick={() => setdata(sportsdata)}>
-            <img src='/images/sports/ball3.jpg'></img>
-            <h3>sports</h3>
-          </div>
-          <div className='box' onClick={() => setdata(watchesData)}>
-            <img src='/images/watches/watch4.jpg'></img>
-            <h3>watches</h3>
-          </div>
+          <aside className='arrow'>
+            <FontAwesomeIcon icon={faArrowRight} color="red" className='right arrowIcon' onClick={() => { slide < number && setslide((pre) => pre + 1) }} />
+            <FontAwesomeIcon icon={faArrowLeft} color="red" className='left arrowIcon' onClick={() => { slide > 0 && setslide((pre) => pre - 1) }} />
+          </aside>
         </div>
         <main className='itemscontainer grid'>
           <ItemsContainer data={data} />

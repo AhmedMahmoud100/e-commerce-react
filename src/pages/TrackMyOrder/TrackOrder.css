@@ -37,3 +37,11 @@
         width: 70%;
     }
 }
+@media(max-width:500px){
+    .TrackOrder p,.TrackOrder input {
+        width: 100%;
+    }
+    .TrackOrder h1 {
+        padding-right: 0;
+    }
+}

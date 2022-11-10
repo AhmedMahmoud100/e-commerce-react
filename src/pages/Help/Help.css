@@ -11,7 +11,7 @@
 }
 .help .part1 div {
     display: grid;
-    grid-template-columns: repeat(2,minmax(300px,1fr));
+    grid-template-columns: repeat(2,minmax(200px,1fr));
     gap: 30px;
     color: rgb(62, 62, 233);
     font-size: 20px;
@@ -27,21 +27,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 30%;
     padding-bottom: 15px;
     border-bottom: 1px solid rgb(120, 117, 117);
     font-size: 20px;
+    width: 100%;
+    max-width: 350px;
 }
 .help .part2 ul span {
     color: rgb(120, 117, 117);
 }
-@media(max-width:1200px){
-    .help .part2 ul li {
-        width: 35%;
+
+@media(max-width:769px){
+    .help .part1 div {
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr))
     }
-}
-@media(max-width:997px){
-    .help .part2 ul li {
-        width: 45%;
-    }
+    
 }

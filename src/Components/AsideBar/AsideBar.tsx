@@ -71,7 +71,7 @@ export default function AsideBar({ visibality, visible }: AsideBarPropsType) {
       <ul>
         <Link
           to={"/Categories"}
-          state={{ CategoryName: "fashion" }}
+          state={{ CategoryName: "Fashion" }}
           onClick={Disable}
         >
           <li>
@@ -81,7 +81,7 @@ export default function AsideBar({ visibality, visible }: AsideBarPropsType) {
         </Link>
         <Link
           to={"/Categories"}
-          state={{ CategoryName: "glasses" }}
+          state={{ CategoryName: "Glasses" }}
           onClick={Disable}
         >
           <li>
@@ -91,7 +91,7 @@ export default function AsideBar({ visibality, visible }: AsideBarPropsType) {
         </Link>
         <Link
           to={"/Categories"}
-          state={{ CategoryName: "headPhones" }}
+          state={{ CategoryName: "HeadPhones" }}
           onClick={Disable}
         >
           <li>
@@ -101,7 +101,7 @@ export default function AsideBar({ visibality, visible }: AsideBarPropsType) {
         </Link>
         <Link
           to={"/Categories"}
-          state={{ CategoryName: "cars" }}
+          state={{ CategoryName: "Cars" }}
           onClick={Disable}
         >
           <li>
@@ -111,7 +111,7 @@ export default function AsideBar({ visibality, visible }: AsideBarPropsType) {
         </Link>
         <Link
           to={"/Categories"}
-          state={{ CategoryName: "watches" }}
+          state={{ CategoryName: "Watches" }}
           onClick={Disable}
         >
           <li>
@@ -121,7 +121,7 @@ export default function AsideBar({ visibality, visible }: AsideBarPropsType) {
         </Link>
         <Link
           to={"/Categories"}
-          state={{ CategoryName: "sports" }}
+          state={{ CategoryName: "Sports" }}
           onClick={Disable}
         >
           <li>
@@ -131,7 +131,7 @@ export default function AsideBar({ visibality, visible }: AsideBarPropsType) {
         </Link>
         <Link
           to={"/Categories"}
-          state={{ CategoryName: "makeUp" }}
+          state={{ CategoryName: "MakeUp" }}
           onClick={Disable}
         >
           <li>
@@ -141,7 +141,7 @@ export default function AsideBar({ visibality, visible }: AsideBarPropsType) {
         </Link>
         <Link
           to={"/Categories"}
-          state={{ CategoryName: "mobilePhones" }}
+          state={{ CategoryName: "MobilePhones" }}
           onClick={Disable}
         >
           <li>

@@ -3,6 +3,7 @@ import MobileAside from './MobileAside'
 import Allphones from '../../data/Allphones.json'
 import ItemsContainer from '../common/ItemsContainer'
 import { ItemType } from '../../Types/JsonDataType'
+import './MobilePhones.css'
 
 type jsondatDataType = {
   "original": ItemType[]
@@ -50,7 +51,6 @@ export function MobilePhones() {
             </header>
             <section className='itemscontainer phones grid'>
               <ItemsContainer data={jsonData[brand as keyof jsondatDataType]} />
-
             </section>
           </main>
         </section>

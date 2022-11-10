@@ -104,3 +104,17 @@
 .shoppingCart .cartSummary .totalPrice span:last-child {
     color:rgb(232, 76, 76) ;
 }
+@media(max-width:769px){
+    .shoppingCart {
+        flex-direction: column;
+    }
+    .shoppingCart .shoppingItems , .shoppingCart .cartSummary{
+        width: 100%;
+    }
+    .shoppingCart .item .itemInfo {
+        gap: 20px;
+    }
+    .shoppingCart .item img {
+        min-width: 50px;
+    }
+}
