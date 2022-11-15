@@ -37,7 +37,7 @@ export default function FirestSection() {
                   <button>Visit Collection</button>
                 </Link>
               </section>
-              <img src={e.src} key={e.id}></img>
+              <img src={e.src} key={e.id} referrerPolicy="no-referrer"></img>
             </article>
           );
         })}

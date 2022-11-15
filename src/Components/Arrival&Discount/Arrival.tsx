@@ -24,7 +24,7 @@ export default function Arrival(props: ArrivalPropsType) {
 
           {props.data.map((e: ItemType) => {
             return <article key={e.id}>
-              <img src={e.src}></img>
+              <img src={e.src} referrerPolicy="no-referrer"></img>
               <div>
                 <h3>{e.name}</h3>
                 <span>{FormatCurrency(e.price)}</span>

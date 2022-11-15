@@ -34,7 +34,7 @@ export default function Item({ item }: {item :ItemType }) {
                     <FontAwesomeIcon icon={faHeart} color="red" className='heartIcon' />
                 </div>
             </div>
-            <img src={item.src}></img>
+            <img src={item.src} referrerPolicy="no-referrer"></img>
             <footer className='itemFooter'>
                 <div>
                     <span>{item.name}</span>

@@ -9,7 +9,7 @@
 
 .itemscontainer.grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) ;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-content: center;
 }
 
@@ -71,20 +71,17 @@
     padding: 1px 6px;
     visibility: hidden;
     transition: 0.3s;
-
 }
 
 .itemscontainer .item .heading div .heartIcon {
     visibility: hidden;
     transition: 0.3s;
-
 }
 
 .itemscontainer .item img {
     width: 60%;
     margin: 0 auto;
     padding-bottom: 20px;
-    
 }
 
 .itemscontainer.phones .item img {
@@ -112,16 +109,13 @@
     padding: 10px;
     color: white;
     background-color: rgb(62, 62, 233);
-
 }
 
 .itemscontainer .item .plusIcon:hover {
     background-color: rgb(232, 76, 76);
-
 }
 
 @media (max-width: 400px) {
-
     .itemscontainer .item img {
         width: 50%;
     }

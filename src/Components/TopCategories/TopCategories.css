@@ -104,7 +104,7 @@ color: white;
 }
 @media (max-width:600px){
     .topCategories .body article {
-        width: calc(100% - 10px)
+        width: 100%
     }
     .topCategories header .part1 h2 {
         font-size: 22px;

@@ -13,7 +13,7 @@
 
 .flashdeals header {
     display: flex;
-    padding: 20px 0 30px;
+    padding: 20px 0px 30px;
     align-items: center;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .flash .arrow .left {
-    left: 0px;
+    left: -11px;
 }
 
 .flash {
@@ -72,6 +72,9 @@
     width: 25%;
     padding-left: 20px;
 }
+.itemscontainer.flash .box:first-child {
+    padding-left: 0;
+}
 
 .itemscontainer.flash .box .item {
     width: 100%;
@@ -89,8 +92,12 @@
         width: calc(100% / 3 - 4px);
     }
 
-    .flash .arrow .right {
-        right: 0;
+    .flash .arrow .right  {
+        right: 6px;
+    }
+
+    .flash .arrow .left {
+        left:3px
     }
 }
 
@@ -103,5 +110,6 @@
 @media (max-width:400px) {
     .itemscontainer.flash .box {
         width: 100%;
+        padding-left: 0;
     }
 }

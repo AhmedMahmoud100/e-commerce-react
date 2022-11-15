@@ -43,14 +43,14 @@ export default function TodayDeals() {
             </div>
             <div className='box' onClick={() => setdata(headphonesdata)} style={{ transform: `translateX(-${slide! * 100}%)` }}>
               <figure>
-                <img src='/images/headphones/headphone0.jpg'></img>
+                <img src='/images/deals/headphone0.jpg'></img>
                 <h3>HeadPhones</h3>
               </figure>
 
             </div>
             <div className='box' onClick={() => setdata(glassesdata)} style={{ transform: `translateX(-${slide! * 100}%)` }}>
               <figure>
-                <img src='/images/glasses/glasses0.jpg'></img>
+                <img src='/images/deals/glasses1.jpg'></img>
                 <h3>glasses</h3>
               </figure>
 
@@ -58,28 +58,28 @@ export default function TodayDeals() {
             </div>
             <div className='box' onClick={() => setdata(fashiondata)} style={{ transform: `translateX(-${slide! * 100}%)` }}>
               <figure>
-                <img src='/images/fashion/shoes1.jpg'></img>
+                <img src='/images/deals/shoes1.jpg'></img>
                 <h3>fashion</h3>
               </figure>
 
             </div>
             <div className='box' onClick={() => setdata(carsdata)} style={{ transform: `translateX(-${slide! * 100}%)` }}>
               <figure>
-                <img src='/images/cars/cars0.jpg'></img>
+                <img src='/images/deals/cars10.jpg'></img>
                 <h3>cars</h3>
               </figure>
 
             </div>
             <div className='box' onClick={() => setdata(sportsdata)} style={{ transform: `translateX(-${slide! * 100}%)` }}>
               <figure>
-                <img src='/images/sports/ball3.jpg'></img>
+                <img src='/images/deals/ball4.jpg'></img>
                 <h3>sports</h3>
               </figure>
 
             </div>
             <div className='box' onClick={() => setdata(watchesData)} style={{ transform: `translateX(-${slide! * 100}%)` }}>
               <figure>
-                <img src='/images/watches/watch4.jpg'></img>
+                <img src='/images/deals/watch4.jpg'></img>
                 <h3>watches</h3>
               </figure>
 

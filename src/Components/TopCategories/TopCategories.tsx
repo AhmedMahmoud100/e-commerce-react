@@ -23,9 +23,9 @@ export default function TopCategories() {
         <section className={viewAll ? "body all" : "body"}>
           {data.map((e) => {
             return <article key={e[3].name}>
-              <img src={e[0].src} key={e[0].id}></img>
-              <img src={e[1].src} key={e[1].id}></img>
-              <img src={e[2].src} key={e[2].id}></img>
+              <img src={e[0].src} key={e[0].id} referrerPolicy="no-referrer"></img>
+              <img src={e[1].src} key={e[1].id} referrerPolicy="no-referrer"></img>
+              <img src={e[2].src} key={e[2].id} referrerPolicy="no-referrer"></img>
               <small >{e[3].name} </small>
               <span>{e[3].ordersNumbers} orders this week </span>
             </article>
