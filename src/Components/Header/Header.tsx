@@ -99,11 +99,13 @@ export function Header() {
         </div>
 
         <section className="icons">
-          <FontAwesomeIcon icon={faUser} />
+        
+          <FontAwesomeIcon icon={faUser} className='userIcon' />
           <Link to="/store">
             <FontAwesomeIcon icon={faCartShopping} className="shoppingIcon" />
-          </Link>
-          <span className="items-number">{array!.length}</span>
+            </Link>
+          <span className="items-number">{array.length}</span>
+         
         </section>
       </header>
       <AsideBar visibality={asideVisabilty} visible={setasideVisabilty} />

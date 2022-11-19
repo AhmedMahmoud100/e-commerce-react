@@ -119,20 +119,26 @@
 
 .mainHeader .icons {
     font-size: 20px;
-    padding: 10px 20px;
+    /* padding: 10px ; */
     cursor: pointer;
     position: absolute;
     color: white;
     right: 30px;
     width: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+.mainHeader .icons .userIcon {
+    padding: 10px;
+    padding-top: 11px;
+
+}
+.mainHeader .icons .shoppingIcon {
+    color: white;
+    padding: 10px  ;
+    padding-top: 12px;
 }
 
-.mainHeader .icons .shoppingIcon {
-    margin-left: 10px;
-    color: white;
-}
 
 .mainHeader .items-number {
     position: absolute;
@@ -146,6 +152,7 @@
     font-size: 15px;
     color: white;
     text-align: center;
+    pointer-events: none;
 }
 
 .mainHeader .icons i {
